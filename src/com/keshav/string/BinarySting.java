@@ -1,10 +1,9 @@
-package com.keshav.String;
+package com.keshav.string;
 import java.util.*;
 import java.lang.*;
-import java.io.*;
 
 
-public class BinerySting {
+public class BinarySting {
 
         public static Scanner sc = new Scanner(System.in);
         public static void main (String[] args){

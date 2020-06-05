@@ -1,13 +1,11 @@
-package com.keshav.String;
+package com.keshav.string;
 
 
-import java.util.*;
 import java.lang.*;
-import java.io.*;
 
 import java.util.Scanner;
 
-public class ReveeseWordsInAGivenString {
+public class ReverseWordsInAGivenString {
 
 
         public static void main(String[] args) {

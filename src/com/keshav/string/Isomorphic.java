@@ -1,10 +1,10 @@
-package com.keshav.String;
+package com.keshav.string;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class ISOMORPHIC {
+public class Isomorphic {
 
 
 
@@ -17,7 +17,7 @@ public class ISOMORPHIC {
                 String s1 = br.readLine();
                 String s2 = br.readLine();
 
-                Isomorphic obj = new Isomorphic();
+                Isomorphic1 obj = new Isomorphic1();
 
                 boolean a = obj.areIsomorphic(s1,s2);
                 if(a)
@@ -31,7 +31,7 @@ public class ISOMORPHIC {
 // } Driver Code Ends
 
 
-    class Isomorphic{
+    class Isomorphic1{
         // This function returns true if str1 and str2 are ismorphic
         // else returns false
         public static boolean areIsomorphic(String S1,String S2)

@@ -1,6 +1,5 @@
-package com.keshav.String;
+package com.keshav.string;
 
-import java.util.*;
 import java.lang.*;
 import java.io.*;
 public class CheckIfIsomorphicOrNot {

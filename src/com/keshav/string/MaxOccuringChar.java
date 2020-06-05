@@ -1,4 +1,4 @@
-package com.keshav.String;
+package com.keshav.string;
 import java.lang.*;
 import java.io.*;
 public class MaxOccuringChar {

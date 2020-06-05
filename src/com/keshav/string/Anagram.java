@@ -1,10 +1,10 @@
-package com.keshav.String;
+package com.keshav.string;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class anagram {
+class Anagram {
     
 	public static void main (String[] args)throws IOException {
 	
@@ -15,8 +15,8 @@ class anagram {
 		    String str = br.readLine();
 		    String s1 = str.split(" ")[0];
 		    String s2 = str.split(" ")[1];
-		    
-		    Anagram obj = new Anagram();
+
+		    Anagram1 obj = new Anagram1();
 		    
 		    if(obj.isAnagram(s1,s2))
 		    {
@@ -34,7 +34,7 @@ class anagram {
 }// } Driver Code Ends
 
 
-class Anagram{    
+class Anagram1{
     /*  Function to check if two strings are anagram
     *   c, d: input string
     */

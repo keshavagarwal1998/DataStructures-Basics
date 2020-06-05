@@ -15,7 +15,7 @@ class Node5
 
 
 
-public class LinkedList_Element_From_Last
+public class Nth_node_from_end_of_linked_list
 {
     Node head;
     Node tail;
@@ -57,7 +57,7 @@ public class LinkedList_Element_From_Last
         {
             int n = sc.nextInt();
             int k = sc.nextInt();
-            LinkedList_Element_From_Last llist = new LinkedList_Element_From_Last();
+            Nth_node_from_end_of_linked_list llist = new Nth_node_from_end_of_linked_list();
             //int n=Integer.parseInt(br.readLine());
             int a1=sc.nextInt();
             Node head= new Node(a1);

@@ -1,6 +1,5 @@
-package com.keshav.String;
+package com.keshav.string;
 
-import java.io.*;
 import java.util.*;
 import java.lang.*;
 
