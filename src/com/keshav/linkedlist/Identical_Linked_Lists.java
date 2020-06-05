@@ -1,4 +1,4 @@
-package com.keshav.hashing;
+package com.keshav.linkedlist;
 // { Driver Code Starts
 /*package whatever //do not write package name here */
 
