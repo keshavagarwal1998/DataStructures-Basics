@@ -3,7 +3,7 @@ package com.keshav.hashing;
 import java.util.HashMap;
 import java.util.Scanner;
 
-class subarray_0 {
+class Find_the_sum_of_the_subarray {
 	public static void main (String[] args) {
 	    Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
@@ -15,7 +15,7 @@ class subarray_0 {
 			for(int i = 0 ; i<n ; i++){
 				arr[i] = sc.nextInt();
 			}
-			subarray_0 mn = new subarray_0();
+			Find_the_sum_of_the_subarray mn = new Find_the_sum_of_the_subarray();
 			mn.testing(arr,n);
 
 		}
