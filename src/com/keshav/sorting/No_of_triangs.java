@@ -16,8 +16,8 @@ class No_of_triangs
             int arr[] = new int[n];
             for(int i = 0; i < n; i++)
               arr[i] = sc.nextInt();
-            sorting.Count_possible_triangle mn = new sorting.Count_possible_triangle();
-             System.out.println(sorting.Count_possible_triangle.findNumberOfTriangles(arr, n));
+            Count_possible_triangle mn = new Count_possible_triangle();
+             System.out.println(Count_possible_triangle.findNumberOfTriangles(arr, n));
         }
     }
 }

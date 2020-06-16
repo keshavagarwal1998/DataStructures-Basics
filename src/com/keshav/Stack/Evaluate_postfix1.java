@@ -20,13 +20,15 @@ class solve123{
         Stack<Integer> st = new Stack<Integer>();
         for(int i = 0 ; i<exp.length() ; i++){
             if(exp.charAt(i) == '*' || (exp.charAt(i) == '/') || (exp.charAt(i) == '+') || (exp.charAt(i) == '-')){
-                int a = st.pop();
-                int b = st.pop();
+                int a = st.peek();
+                st.pop();
+                int b = st.peek();
+                st.pop();
                 if(exp.charAt(i)=='+'){
                     st.push(a+b);
                 }
                 if(exp.charAt(i)=='-'){
-                    st.push(a-b);
+                    st.push(b-a);
                 }
                 if(exp.charAt(i)=='*'){
                     st.push(a*b);

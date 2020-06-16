@@ -19,7 +19,7 @@ class Sum_x
 		    for(int i=0; i<n; i++){
 		        arr[i] = Integer.parseInt(inputLine[i]);
 		    }
-		    System.out.println(new sorting.TripletSum().find3Numbers(arr, n, x));
+		    System.out.println(new TripletSum().find3Numbers(arr, n, x));
 		}
 	}
 }

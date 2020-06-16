@@ -20,7 +20,7 @@ class absolute_diff
 		    for(int i=0; i<n; i++){
 		        arr[i] = Integer.parseInt(inputLine[i]);
 		    }
-		    new sorting.SortABS().sortABS(arr,n, x);
+		    new SortABS().sortABS(arr,n, x);
 		    System.out.println();
 		}
 	}

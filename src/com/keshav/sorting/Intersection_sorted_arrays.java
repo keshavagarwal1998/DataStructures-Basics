@@ -27,7 +27,7 @@ class Intersection_sorted_arrays
             for(int i = 0; i < M; i++)
                 arr2[i] = Integer.parseInt(st[i]);
                 
-           new sorting.Intersection().printIntersection(arr1, arr2, N, M);
+           new Intersection().printIntersection(arr1, arr2, N, M);
            System.out.println();
         }
     }

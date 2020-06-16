@@ -13,7 +13,7 @@ class Triplets{
 			for(int i=0;i<n;i++){
 				a[i]=sc.nextInt();
 			}
-			sorting.Triplet g=new sorting.Triplet();
+			Triplet g=new Triplet();
 			if(g.findTriplets(a,n))
 				System.out.println("1");
 			else

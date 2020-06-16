@@ -16,7 +16,7 @@ class Counting012
 		    for(int i=0; i<n; i++){
 		        arr[i] = Integer.parseInt(inputLine[i]);
 		    }
-		    new sorting.Sort012().segragate012(arr, n);
+		    new Sort012().segragate012(arr, n);
 		    StringBuffer str = new StringBuffer();
 		    for(int i=0; i<n; i++){
 		        str.append(arr[i]+" ");

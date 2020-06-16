@@ -27,7 +27,7 @@ class powerpairs
                 y[i] = Integer.parseInt(str[i]);
                 
             }
-            System.out.println(new sorting.Num_of_pair().countPairs(x, y, n, m));
+            System.out.println(new Num_of_pair().countPairs(x, y, n, m));
            
         }
 	}

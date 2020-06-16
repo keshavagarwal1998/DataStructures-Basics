@@ -43,7 +43,7 @@ class Pangram1
 	  {
 	    String s=br.readLine().trim();
 	    
-	    System.out.println(new string.Pangram().checkPanagram (s)==true?1:0);
+	    System.out.println(new Pangram().checkPanagram (s)==true?1:0);
 	  }
 	  
 	 }

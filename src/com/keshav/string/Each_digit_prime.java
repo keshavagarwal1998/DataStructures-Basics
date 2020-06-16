@@ -13,7 +13,7 @@ class Each_digit_prime {
 		while(t-- > 0)
 		{
 			int st = sc.nextInt();
-			int ans=new string.Testing().Testing(st);
+			int ans=new Testing().Testing(st);
 			System.out.print(ans);
 		}
 		//code

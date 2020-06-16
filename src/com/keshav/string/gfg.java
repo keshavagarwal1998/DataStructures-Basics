@@ -14,7 +14,7 @@ class modify_string
         while(t-- > 0)
         {
             String a = sc.next();
-            System.out.println(new string.solve().modified(a));
+            System.out.println(new solve().modified(a));
         }
     }
 }// } Driver Code Ends

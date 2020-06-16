@@ -17,7 +17,7 @@ class pattern_search
             s = sc.next();
             p = sc.next();
             
-            string.Search obj = new string.Search();
+            Search obj = new Search();
             
             if(obj.search(p, s) ==  true)
               System.out.println("Yes");
